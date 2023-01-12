@@ -1,6 +1,22 @@
 var elForm = document.querySelector('.js-form');
 var elInputE = document.querySelector('.js-inputE');
 var elInputP = document.querySelector('.js-inputP');
+var elBtnk = document.querySelector('.btnkoz');
+
+// elBtnk.addEventListener('mousedown',function(){
+// elInputP.type = 'text'
+// })
+// elBtnk.addEventListener('mouseup',function(){
+//     elInputP.type = 'password'
+//     })
+    elBtnk.addEventListener('click',function(){
+        if(elInputP.type == 'password'){
+            elInputP.type ='text'
+        }else{elInputP.type = 'password'}
+        })
+
+    
+
 
 
 let elLog = document.querySelector('.js-log');
